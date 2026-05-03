@@ -1,0 +1,9 @@
+<?php
+$students = ["Ahmed", "Ali", "Sara", "Omar", "Lina"];
+
+echo "<h2>Student List</h2>";
+
+for ($i = 0; $i < count($students); $i++) {
+    echo ($i + 1) . ". " . $students[$i] . "<br>";
+}
+?>
