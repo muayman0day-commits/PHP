@@ -1,0 +1,19 @@
+<?php
+$names = ["Ahmed", "Ali", "Omar", "Sara"];
+$search = "Ali";
+
+$found = false;
+
+for ($i = 0; $i < count($names); $i++) {
+    if ($names[$i] == $search) {
+        $found = true;
+        break;
+    }
+}
+
+if ($found) {
+    echo "Name found ✔";
+} else {
+    echo "Name not found ❌";
+}
+?>
