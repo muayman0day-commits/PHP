@@ -1,0 +1,15 @@
+<?php
+$score = 85;
+
+echo "<h2>Student Result</h2>";
+
+if ($score >= 90) {
+    echo "Excellent 🌟";
+} elseif ($score >= 75) {
+    echo "Very Good 👍";
+} elseif ($score >= 50) {
+    echo "Pass ✔";
+} else {
+    echo "Fail ❌";
+}
+?>
